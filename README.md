@@ -4,10 +4,13 @@
 *HTML
 *JS
 *API (https://opentdb.com/)
-## This was our first project and we were to build a game. 
+
+Here is a link to the game: https://roydaly.github.io/ydkj/
+
+## Project one. 
 I decided to make a 2 player trivia game. The theme of the game was based on an older trivia game called 'You Dont Know Jack". Players take turns answering multiple choice questions. The categories are random and the first player to 5 wins. You are not penalized for answering incorrectly. 
 ## My process: 
-I started out by making my game board. I knew I needed a place to display the question, answers, instructions, 2 players, a next question button and a reset button. I decided to keep the board simple and focus my time and energy on making the game functional. However, I ran into quite a few road blocks. The api returned back quite a few different fields. So I had to select what I wanted for the game and store that information. My next setback came when I needed to display the answers on the page. I used radio buttons and they turned out to be pretty difficult to work with. Once that was solved, I needed to make sure the correct answer was not ending up at the same button for every question. 
+I started out by making my game board. I knew I needed a place to display the question, answers, instructions, 2 players, a next question button and a reset button. I decided to keep the board simple and focus my time and energy on making the game functional. However, I ran into quite a few road blocks. The api returned back quite a few different fields. So I had to select what I wanted for the game and store that information. My next setback came when I needed to display the answers on the page. I used radio buttons and they turned out to be pretty difficult to work with. Once that was solved, I needed to make sure the correct answer was not ending up at the same button for every question. I ended up getting help from Mike, Sam and also referenced quite a few websites. W3, Stack Overflow and many more.
 ## MVP
 I accomplished mvp on day 3 after lunch. It wasnt pretty and had quite a few hiccups but it did work. 
 ## Game logic
