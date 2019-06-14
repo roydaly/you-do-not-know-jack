@@ -96,14 +96,14 @@ function popQuestion(q) {
             playerOneScoreBox.textContent = ("Player One's Score is: ") + playerOneScore;
             alert("Correct, click next question!")
             if (playerOneScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player One Wins!")
             }
         } else if (currentPlayer % 2 === 0) {
             playerTwoScore++;
             playerTwoScoreBox.textContent = ("Player Two's Score is: ") + playerTwoScore;
             alert("Correct, click next question!")
             if (playerTwoScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player Two Wins!")
             }
         }  else {
             alert("Click Something!")
@@ -120,14 +120,14 @@ function popQuestion(q) {
             playerOneScoreBox.textContent = ("Player One's Score is: ") + playerOneScore;
             alert("Correct, click next question!")
             if (playerOneScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player One Wins!")
             }
         } else if (currentPlayer % 2 === 0) {
             playerTwoScore++;
             playerTwoScoreBox.textContent = ("Player Two's Score is: ") + playerTwoScore;
             alert("Correct, click next question!")
             if (playerTwoScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player Two Wins!")
             }
         }  else {
             alert("Click Something!")
@@ -144,14 +144,14 @@ function popQuestion(q) {
             playerOneScoreBox.textContent = ("Player One's Score is: ") + playerOneScore;
             alert("Correct, click next question!")
             if (playerOneScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player One Wins!")
             }
         } else if (currentPlayer % 2 === 0) {
             playerTwoScore++;
             playerTwoScoreBox.textContent = ("Player Two's Score is: ") + playerTwoScore;
             alert("Correct, click next question!")
             if (playerTwoScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player Two Wins!")
             }
         }  else {
             alert("Click Something!")
@@ -168,14 +168,14 @@ function popQuestion(q) {
             playerOneScoreBox.textContent = ("Player One's Score is: ") + playerOneScore;
             alert("Correct, click next question!")
             if (playerOneScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player One Wins!")
             }
         } else if (currentPlayer % 2 === 0) {
             playerTwoScore++;
             playerTwoScoreBox.textContent = ("Player Two's Score is: ") + playerTwoScore;
             alert("Correct, click next question!")
             if (playerTwoScore >= 10) {
-                alert("You are the smartest man alive")
+                alert("Player Two Wins!")
             }
         }  else {
             alert("Click Something!")
