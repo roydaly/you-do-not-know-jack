@@ -4,6 +4,9 @@
 *HTML
 *JS
 *API (https://opentdb.com/)
+
+Here is a link to the game: https://roydaly.github.io/ydkj/
+
 ## This was our first project and we were to build a game. 
 I decided to make a 2 player trivia game. The theme of the game was based on an older trivia game called 'You Dont Know Jack". Players take turns answering multiple choice questions. The categories are random and the first player to 5 wins. You are not penalized for answering incorrectly. 
 ## My process: 
