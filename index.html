@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>You Don't Know Jack!</title>
+    <link rel="icon" href="https://morrisatlarge.files.wordpress.com/2011/02/ydkj.jpg">
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
+<body id="bg"> 
+        <div id="errormodal" class="errormodal">
+ 
+                <!-- error Modal content -->
+                <div class="error-modal-content">
+                    <span class="errorclose">&times;</span>
+                    <h1>Player One is UP!</h1>
+                </div>
+        
+            </div>
+    <main>
+        <header>You Don't Know Jack</header>
+        <h3>First Player to 5 Wins!</h3>
+        <h5>Click Next Question to Begin and to Alternate Players</h5>
+        <div class="questionsanswers">
+            <div id="question"></div>
+            <br>
+            <div id="potentialanswers">
+                <input type="radio" id="answerone" name="answers" value="answerone"> <label for="answerone"></label><br>
+                <input type="radio" id="answertwo" name="answers" value="answertwo"> <label for="answertwo"></label><br>
+                <input type="radio" id="answerthree" name="answers" value="answerthree"> <label for="answerthree"></label><br>
+                <input type="radio" id="answerfour" name="answers" value="answerfour"> <label for="answerfour"></label> 
+            </div>
+        </div>
+        <br>
+        <div class= "players">
+            <div id="playerone">Player One's Score: 0</div>
+            <div id="playertwo">Player Two's Score: 0</div>
+         </div>
+         <br>
+         <div class="buttons">
+             <button id="next">Next Question!</button>
+            <button id="reset">Reset!</button>
+         </div>
+    </main>
+    <script src= "js/script3.js"></script>
+</body>
+</html>

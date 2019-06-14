@@ -1,0 +1,104 @@
+header {
+    text-align: center;
+    font-size: 9em;
+    color: aliceblue;
+}
+h3 {
+    text-align: center;
+    color: rgb(25, 25, 216);
+    font-size: 3em;
+    text-shadow: 1px 1px 1px aliceblue;
+}
+h5 {
+    text-align: center;
+    color:rgb(25, 25, 216);
+    font-size: 2em;
+    text-shadow: 1px 1px 1px aliceblue;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+#bg {
+    background-image: url("http://bulk2.destructoid.com/ul/184692-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#question {
+    text-align: center;
+    color:whitesmoke;
+    font-size: larger;
+    background-color: black;
+}
+
+#potentialanswers {
+    text-align: center;
+    color:red;
+    font-size: larger;
+}
+    
+#playerone {
+    text-align: center;
+    color: blue;
+    font-size: larger;
+}
+
+#playertwo {
+    text-align: center;
+    color: blue;
+    font-size: larger;
+}
+
+.buttons {
+    text-align: center;
+}
+
+
+/*error modal*/
+.errormodal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    padding-top: 0; /* Location of the box */
+    /* left: 0;
+    top: 0; */
+    width: 100%; 
+    height: 100%; 
+    margin: 0 auto;
+    /*overflow: auto;  Enable scroll if needed */
+    /*background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); Black w/ opacity*/
+    background-color: rgba(255, 255, 255, .6);
+    margin-top: 0;
+  }
+
+  
+  /* Modal Content */
+  .error-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 200px;
+    width: 400px;
+  }
+  
+  /* The Close Button */
+  .errorclose {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .errorclose:hover,
+  .errorclose:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
